@@ -31,5 +31,17 @@ By working on this project, you'll enhance your web development skills and maste
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone git@github.com:mel-harc/Weather-App.git
+
+# 🌐 API Setup
+To fetch weather data, you will need to set up your OpenWeather API key:
+
+1. Sign up at [OpenWeather](https://home.openweathermap.org/users/sign_up) to get your free API key.
+2. Add your API key to the JavaScript file where the API calls are made. (line 6 in script.js [const apiKey = ""])
+3. Add country code of for the city you want to know the state of its weather , 1 is countrycode of U.S, Try searching for yours https://countrycode.org/ (change line 20 in script.js [const countryCode = 1;])
+  
+## 💡 Usage
+Enter the name of the city to get the current weather forecast.
+
+## by mel-harc
 
