@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <title>Weather</title>
+</head>
+<body>
+    <main>
+        <section id="weather-wrapper">
+          <h1 id="weather-app">CHECK THE WEATHER</h1>
+          <div id="weather-search">
+            <input id="search" type="text" placeholder="Search by city" />
+            <input id="submit" type="submit" onclick="fetchWeather()" value="Search" />
+          </div>
+          <div id="weather-data" style="display: none;"></div>
+        </section>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>
